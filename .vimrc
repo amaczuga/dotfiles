@@ -23,7 +23,7 @@ let g:syntastic_aggregate_errors = 1
 let g:syntastic_yaml_checkers = ['yamllint']
 
 let g:syntastic_python_checkers = ['flake8']
-let g:syntastic_python_flake8_args='--ignore=E902,E910,S104,S404,S601,S603'
+let g:syntastic_python_flake8_args='--ignore=E902,E910,S104,S404,S601,S603,W503'
 
 let g:syntastic_html_checkers = ['eslint']
 let g:syntastic_html_eslint_exec = 'eslint_d'
